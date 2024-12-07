@@ -1,0 +1,145 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+body{
+    background-image: url('https://www.pngmagic.com/product_images/light-blue-website-background-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: x-large;
+}
+.navbar{
+    box-shadow: 4px 4px 25px;
+    box-shadow: -4px -4px -25px;
+}
+.navbar ul{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 8px;
+    
+}
+.navbar ul li{
+    margin: 20px;
+    padding: 5px;
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+    
+}
+#Home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.takinginput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    box-shadow: 4px 4px 25px;
+    box-shadow: -4px -4px -25px;
+
+}
+.takinginput p{
+    font-size:medium;
+    margin: 1px;
+    padding: 1px;
+}
+.taking-input{
+    border-radius: 5px;
+    height: 20px;
+}
+.add{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: smaller;
+    font-weight: bold;
+    background-color: rgb(0, 255, 221);
+
+}
+
+#Studentdetails{
+    width: 100%;
+    height: 100vh;
+}
+.newsection {
+    max-height: 600px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+.newsection::-webkit-scrollbar{
+    width: 10px;
+    background-color: red;
+    border-radius: 25px;
+    margin: 5px;
+}
+.newsection::-webkit-scrollbar-thumb{
+    width: 15px;
+    background-color:green;
+    border-radius: 25px;
+}
+
+.display-items{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 2fr 1.5fr 0.5fr 0.5fr;
+    gap: 10px;
+    box-shadow: 4px 4px 25px;
+    box-shadow: -4px -4px -25px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    
+    width: 97.2%;
+
+}
+.newdetails{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 2fr 1.5fr 0.5fr 0.5fr;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    position: relative;
+    left: -15px;
+    box-shadow: 4px 4px 25px;
+    box-shadow: -4px -4px -25px;
+}
+
+.display-items span,.newdetails span{
+    margin: 2px;
+    padding: 1px;
+    text-align: center;
+}
+.newdetails input{
+box-sizing: border-box;
+width: 100%;
+border-radius: 5px;
+}
+
+.sectionbutton{
+    background-color: rgb(0, 255, 221);
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+}
